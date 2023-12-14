@@ -1,0 +1,6 @@
+/Audio
+*.exe
+*.ini
+*.rvproj2
+/Graphics/
+!/Graphics/Layers
