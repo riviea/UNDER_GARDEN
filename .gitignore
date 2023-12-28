@@ -1,6 +1,13 @@
-/Audio
+# 프로젝트 및 빌드 파일 제외
 *.exe
 *.ini
 *.rvproj2
+
+# 리소스 제외
+/Audio
 /Graphics/
 !/Graphics/Layers
+
+# rgss-compiler 관련 파일 제외
+/Scripts
+rgss-compiler.json
