@@ -1,7 +1,24 @@
+# ==================================================
+# RPG Maker VX Ace .gitignore
+# ==================================================
+
+# 윈도우 시스템 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
 # 프로젝트 및 빌드 파일 제외
 *.exe
 *.ini
 *.rvproj2
+
+# 암호화된 게임 데이터 아카이브
+# 이 파일은 프로젝트 소스가 아니라 '빌드' 결과물이므로 제외합니다.
+Game.rgss3a
+
+# 로그 및 추출된 스크립트 파일
+debug.log
+scripts.txt
 
 # 리소스 제외
 /Audio
@@ -11,3 +28,13 @@
 # rgss-compiler 관련 파일 제외
 /Scripts
 rgss-compiler.json
+
+# 백업 파일
+*.bak
+*~
+
+# IDE 및 에디터 설정 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
