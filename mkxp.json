@@ -1,0 +1,11 @@
+{
+  "fullscreen": false,
+  "videoDriver": "opengl",
+  "vsync": true,
+  "defScreenW": 1280,
+  "defScreenH": 720,
+  "smoothScaling": true,
+  "integerScaling": true,
+  "aspectRatio": 1.7777,
+  "subImageFix": true
+}
