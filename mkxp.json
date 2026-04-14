@@ -4,7 +4,8 @@
   "vsync": true,
   "defScreenW": 1280,
   "defScreenH": 720,
-  "smoothScaling": true,
+  "smoothScaling": 4,
+  "xbrzScalingFactor": 3,
   "integerScaling": true,
   "aspectRatio": 1.7777,
   "subImageFix": true
